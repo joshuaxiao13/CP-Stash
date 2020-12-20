@@ -14,9 +14,9 @@ void init(int n) {
 int find(int a) {
 	if(root[a] == a) return a;
 	return root[a] = find(root[a]);
-  // path compression - used to flatten the structure of the tree
-  // idea is that each node in a tree may as well be attached to 
-  // the root, as that is the representative of the component
+  	// path compression - used to flatten the structure of the tree
+  	// idea is that each node in a tree may as well be attached to 
+  	// the root, as that is the representative of the component
 }
 
 bool same(int a, int b) {return find(a) == find(b);}
