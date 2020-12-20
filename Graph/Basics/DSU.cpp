@@ -1,6 +1,6 @@
 /*
 Resources: 	CSA: https://csacademy.com/lesson/disjoint_data_sets/
-       	 	CSES: Minimum Spanning Trees
+       	 	CSES: Minimum Spanning Trees - Problem: Road Construction - https://cses.fi/paste/74a651438454d31515707e/
 */
 
 const int mxN = 1e5;
