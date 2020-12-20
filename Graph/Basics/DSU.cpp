@@ -22,7 +22,8 @@ int find(int a) {
 bool same(int a, int b) {return find(a) == find(b);}
 
 void unite(int a, int b) {
-	a = find(a), b = find(b);
+	a = find(a);
+	b = find(b);
 	if(depth[a] < depth[b]) swap(a, b);
 	root[b] = a;
 	depth[a] = max(depth[a], depth[b] + 1);
