@@ -1,6 +1,6 @@
 /*
-Source: CSA: https://csacademy.com/lesson/disjoint_data_sets/
-        CSES: Minimum Spanning Trees
+Resources: 	CSA: https://csacademy.com/lesson/disjoint_data_sets/
+       	 	CSES: Minimum Spanning Trees
 */
 
 const int mxN = 1e5;
