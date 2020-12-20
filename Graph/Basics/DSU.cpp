@@ -27,3 +27,4 @@ void unite(int a, int b) {
 	root[b] = a;
 	depth[a] = max(depth[a], depth[b] + 1);
 }
+
