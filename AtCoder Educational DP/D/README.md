@@ -2,11 +2,11 @@
 
 This is a classic 0-1 knapsack problem, where we want to maximize the value of our knapsack with items that have a total weight less than or equal to the maximum
 capacity of the knapsack. Let ```dp[w]``` equal the maximum value of a knapsack with weights totaling to **exactly** ```w```. The answer is then the maximum dp value
-across all possible exact total weights ```w``` that we can make with the ```N``` items. The idea is to take each item, and build off on top of the possible total weights
-that the previous items could total to. It doesn't matter what order we take out the items, but say if there are multiple groups of items that sum up to a weight of ```x```,
-we want to take the group that has the maximum combined value. We don't really care what those items are, we are more concerned with the maximum value for a total weight ```w```.
-Thus ```dp[sumW + w[k]] = max(dp[sumW] + value[k])```, where ```w[k]``` and ```value[k]``` is the weight and value of item ```k```, and ```sumW``` is the sum of weights for 
-some group of items, excluding item ```k```.
+across all possible exact total weights ```w``` that we can make with the ```N``` items. 
+
+The idea is to take each item, and build off on top of the possible total weights that the previous items could total to. It doesn't matter what order we take out 
+the items, but say if there are multiple groups of items that sum up to a weight of ```x```, we want to take the group that has the maximum combined value. We don't
+really care what those items are, we are more concerned with the maximum value for a total weight ```w```. Thus ```dp[sumW + w[k]] = max(dp[sumW] + value[k])```, where ```w[k]``` and ```value[k]``` is the weight and value of item ```k```, and ```sumW``` is the sum of weights for some group of items, excluding item ```k```.
 
 ### DP Statemet
 
