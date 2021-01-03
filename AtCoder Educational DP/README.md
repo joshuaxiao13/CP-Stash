@@ -17,6 +17,7 @@ C - [Vacation](https://atcoder.jp/contests/dp/tasks/dp_c) | [Explaination](https
 D - [Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d) | [Explaination](https://github.com/joshuaxiao13/CP-Stash/tree/main/AtCoder%20Educational%20DP/D)
 
 
+Test - [Explaination](#c---vacation)
 
 
 # A - Frog 1
