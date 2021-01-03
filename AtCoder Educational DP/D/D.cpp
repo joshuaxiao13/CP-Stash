@@ -26,6 +26,7 @@ int main() {
 		int weight;
 		ll val;
 		tie(weight, val) = x;
+		
 		for(int w = mxW - weight; w >= 0; --w) {
 			if(dp[w] != -1) {
 				dp[w + weight] = max(dp[w + weight], dp[w] + val);
