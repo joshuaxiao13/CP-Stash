@@ -202,7 +202,7 @@ dp[sumW + w[k]] = max(dp[sumW] + value[k])
 for all ```k```, where ```w[k]``` and ```value[k]``` is the weight and value of item ```k```, and ```sumW``` is the sum of weights for 
 some group of items, excluding item ```k```. We can preset all dp values to -1. If ```dp[w] = -1```, it is impossible to make a total sum of ```w``` with the given items.
 
-Return the maximum value of ```dp[w]``` for all valid weight-sums ```w```. We'll using a 64-bit integer to avoid overflow (due to the contraints of the problem).
+Return the maximum value of ```dp[w]``` for all valid weight-sums ```w```. We'll using a 64-bit integer to avoid overflow (due to the constraints of the problem).
 
 ###### Code 
 
