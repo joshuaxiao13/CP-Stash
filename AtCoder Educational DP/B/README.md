@@ -11,7 +11,7 @@ of ```min(i, K)``` behind.
 ```cpp
 dp[i] = min(dp[i], dp[i-j] + abs(h[i] - h[i-j]))
 ```
-for all positive ```j``` less than or equal to ```min(i, K)```. We preset all DP values to a large value, and ```dp[0] = 0``` because it costs zero to land on the first stone
+for all positive ```j``` less than or equal to ```min(i, K)```. We preset all DP values to a large enough value, and ```dp[0] = 0``` because it costs zero to land on the first stone
 (we start off on stone 0).
 
 ###### Code
