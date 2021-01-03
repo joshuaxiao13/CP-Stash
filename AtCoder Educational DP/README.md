@@ -10,3 +10,4 @@ Problem | Editorial + Code
 ------- | ----------------
 A - [Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)| [Explaination](https://github.com/joshuaxiao13/CP-Stash/tree/main/AtCoder%20Educational%20DP/A) 
 B - [Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)| [Explaination](https://github.com/joshuaxiao13/CP-Stash/tree/main/AtCoder%20Educational%20DP/B)
+C - [Vacation](https://atcoder.jp/contests/dp/tasks/dp_c) | [Explaination](https://github.com/joshuaxiao13/CP-Stash/tree/main/AtCoder%20Educational%20DP/C#c---vacation)
