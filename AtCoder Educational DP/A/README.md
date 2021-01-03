@@ -24,6 +24,7 @@ int main() {
 
 	int N;
 	cin >> N;
+	
 	vector<int> h(N);
 	for(int&x : h) cin >> x;
 	
