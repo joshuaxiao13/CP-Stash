@@ -17,7 +17,7 @@ int main() {
 		}
 	}
 	
-	vector<vector<int>> dp(N, vector<int>(3, 0));
+	vector<vector<int>> dp(N, vector<int>(3));
 	
 	for(int i = 0; i < 3; ++i)
 		dp[0][i] = happiness[i][0];
