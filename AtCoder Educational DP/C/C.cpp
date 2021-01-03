@@ -11,9 +11,11 @@ int main() {
 	
 	vector<vector<int>> happiness(3, vector<int>(N));
 	
-	for(int day = 0; day < N; ++day)
-		for(int i = 0; i < 3; ++i)
+	for(int day = 0; day < N; ++day) {
+		for(int i = 0; i < 3; ++i) {
 			cin >> happiness[i][day];
+		}
+	}
 	
 	vector<vector<int>> dp(N, vector<int>(3, 0));
 	
@@ -33,4 +35,3 @@ int main() {
 	
 	return 0;
 }
-
