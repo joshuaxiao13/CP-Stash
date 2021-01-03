@@ -35,5 +35,6 @@ int main() {
 	}
 	
 	cout << dp[N-1] << '\n';
+	return 0;
 }
 ```
