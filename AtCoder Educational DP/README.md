@@ -13,6 +13,8 @@ B - [Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)| [Explaination](https://
 C - [Vacation](https://atcoder.jp/contests/dp/tasks/dp_c) | [Explaination](https://github.com/joshuaxiao13/CP-Stash/tree/main/AtCoder%20Educational%20DP/C#c---vacation)
 
 
+
+
 # A - Frog 1
 
 The frog can only jump 1 or 2 stones ahead from the stone that the frog is currently on. Thus, to jump to stone ```i```, 
