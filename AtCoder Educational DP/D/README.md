@@ -6,7 +6,7 @@ across all possible exact total weights ```w``` that we can make with the ```N``
 
 The idea is to take each item, and build off on top of the possible total weights that the previous items could total to. It doesn't matter what order we take out 
 the items, but say if there are multiple groups of items that sum up to a weight of ```x```, we want to take the group that has the maximum combined value. We don't
-really care what those items are, we are more concerned with the maximum value for a total weight ```w```. Thus ```dp[sumW + w[k]] = max(dp[sumW] + value[k])```, where ```w[k]``` and ```value[k]``` is the weight and value of item ```k```, and ```sumW``` is the sum of weights for some group of items, excluding item ```k```.
+really care what those items are, we are more concerned with the maximum value for a total weight ```w```. Thus ```dp[sumW + w[k]] = max(dp[sumW] + value[k])```, for all ```k``` , where ```w[k]``` and ```value[k]``` is the weight and value of item ```k```, and ```sumW``` is the sum of weights for some group of items, excluding item ```k```.
 
 ### DP Statemet
 
@@ -14,7 +14,7 @@ really care what those items are, we are more concerned with the maximum value f
 dp[sumW + w[k]] = max(dp[sumW] + value[k])
 ```
 
-where ```w[k]``` and ```value[k]``` is the weight and value of item ```k```, and ```sumW``` is the sum of weights for 
+for all ```k```, where ```w[k]``` and ```value[k]``` is the weight and value of item ```k```, and ```sumW``` is the sum of weights for 
 some group of items, excluding item ```k```. We can preset all dp values to -1. If ```dp[w] = -1```, it is impossible to make a total sum of ```w``` with the given items.
 
 Return the maximum value of ```dp[w]``` for all valid weight-sums ```w```.
