@@ -60,6 +60,8 @@ int main() {
 }
 ```
 
+
+
 # B - Frog 2
 
 This problem is very similar to problem A - Frog 1, except in problem B, the frog is not limited to jumping a maximum of 2 stones ahead.
@@ -107,6 +109,9 @@ int main() {
 	return 0;
 }
 ```
+
+
+
 
 # C - Vacation
 
