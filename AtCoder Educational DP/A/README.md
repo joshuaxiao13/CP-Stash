@@ -11,6 +11,8 @@ that the cost to jump from stone ```a``` to stone ```b``` is the absolute value 
 ```cpp 
 dp[i] = min(dp[i-1] + abs(h[i] - h[i-1]), dp[i-2] + abs(h[i] - h[i-2]))
 ```
+Return ```dp[N-1]```, the minimum cost to jump to the last stone.
+
 ###### Code
 
 ```cpp
