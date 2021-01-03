@@ -9,4 +9,4 @@ Here, **you can find my code (in C++) and explainations** for each one of the pr
 Problem | Editorial + Code
 ------- | ----------------
 A - [Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)| [Explaination](https://github.com/joshuaxiao13/CP-Stash/tree/main/AtCoder%20Educational%20DP/A) 
-B - [Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)| [link](www.youtube.ca)
+B - [Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)| [Explaination](https://github.com/joshuaxiao13/CP-Stash/tree/main/AtCoder%20Educational%20DP/B)
