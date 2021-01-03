@@ -8,7 +8,7 @@ The idea is to take each item, and build off on top of the possible total weight
 the items, but say if there are multiple groups of items that sum up to a weight of ```x```, we want to take the group that has the maximum combined value. We don't
 really care what those items are, we are more concerned with the maximum value for a total weight ```w```. Thus ```dp[sumW + w[k]] = max(dp[sumW] + value[k])```, for all ```k``` , where ```w[k]``` and ```value[k]``` is the weight and value of item ```k```, and ```sumW``` is the sum of weights for some group of items, excluding item ```k```.
 
-For more information on Knapsack Problems, read from page 82 of this [book](https://cses.fi/book/book.pdf).
+For more information on Knapsack Problems, read from page 72 of this [book](https://cses.fi/book/book.pdf).
 
 ### DP Statemet
 
