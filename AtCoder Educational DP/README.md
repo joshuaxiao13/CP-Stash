@@ -11,13 +11,10 @@ Here, **you can find my code (in C++) and explainations** for each one of the pr
 
 Problem | Editorial + Code
 ------- | ----------------
-A - [Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)| [Explaination](https://github.com/joshuaxiao13/CP-Stash/tree/main/AtCoder%20Educational%20DP/A#a---frog-1) 
-B - [Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)| [Explaination](https://github.com/joshuaxiao13/CP-Stash/tree/main/AtCoder%20Educational%20DP/B#b---frog-2)
-C - [Vacation](https://atcoder.jp/contests/dp/tasks/dp_c) | [Explaination](https://github.com/joshuaxiao13/CP-Stash/tree/main/AtCoder%20Educational%20DP/C#c---vacation)
-D - [Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d) | [Explaination](https://github.com/joshuaxiao13/CP-Stash/tree/main/AtCoder%20Educational%20DP/D)
-
-
-Test - [Explaination](#c---vacation)
+A - [Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)| [Explaination](#a---frog-1) 
+B - [Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)| [Explaination](#b---frog-2)
+C - [Vacation](https://atcoder.jp/contests/dp/tasks/dp_c) | [Explaination](#c---vacation)
+D - [Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d) | [Explaination](#d---knapsack-1)
 
 
 # A - Frog 1
