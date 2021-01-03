@@ -45,7 +45,6 @@ int main() {
 	for(int i = 0; i < N; ++i)
 		cin >> item[i].first >> item[i].second;
 		
-		
 	vector<ll> dp(mxW + 1, -1);
 	dp[0] = 0;
 	
