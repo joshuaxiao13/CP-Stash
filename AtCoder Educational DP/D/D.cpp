@@ -11,6 +11,8 @@ int main() {
 	int N, mxW;
 	cin >> N >> mxW;
 	
+	// first element  --> weight of item
+	// second element --> value of item
 	vector<pair<int,ll>> item(N);
 	
 	for(int i = 0; i < N; ++i)
