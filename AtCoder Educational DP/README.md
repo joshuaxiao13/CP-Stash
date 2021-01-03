@@ -6,7 +6,7 @@ Here, **you can find my code (in C++) and explainations** for each one of the pr
 
 ### Problems - Click [here](https://atcoder.jp/contests/dp/tasks) for the full list of tasks.
 
-Problem | Editorial | Code
-------- | --------- | ----
-A - [Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)| link | link
-B - [Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)| link | link
+Problem | Editorial + Code
+------- | ----------------
+A - [Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)| link 
+B - [Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)| link 
