@@ -12,7 +12,7 @@ In other words, Taro cannot swim in the sea today, and swim in the sea again tom
 dp[day][i] = max(dp[day-1][j], dp[day-1][k]) + happiness[i][day];
 ```
 
-where ```j``` and ```k``` are the other 2 activties, not equal to ```i```. Return the ```max(dp[N-1][0], dp[N-1][1], dp[N-1][2])```, the maximum happiness Taro gains after ```N``` days.
+where ```j``` and ```k``` are the other 2 activties, not equal to ```i```. Return the ```max({dp[N-1][0], dp[N-1][1], dp[N-1][2]})```, the maximum happiness Taro gains after ```N``` days.
 
 ###### Code
 ```cpp
