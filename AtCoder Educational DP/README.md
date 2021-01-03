@@ -121,7 +121,9 @@ In this problem, Taro needs to build a ```N``` day schedule where he can do one 
 
 > As Taro gets bored easily, he cannot do the same activities for two or more consecutive days.
 
-In other words, Taro cannot swim in the sea today, and swim in the sea again tomorrow. He must do different activites on consecutive days. Let ```dp[day][i]``` equal the maximum happiness Taro can have at the end of day ```day``` if he chooses to do activity ```i``` on day ```day```. Since there are only three activites, they will be represented by ```i = 0```, ```i = 1```, and ```i = 2```. Then, ```dp[day][i]``` is equal to the sum of the happiness Taro gets from doing activity ```i``` on day ```day``` and the maximum happiness at the end of the previous day from doing either of the two activites not equal to ```i```. Let ```happiness[i][day]``` equal the happiness Taro recieves from doing activity ```i``` on day ```day``` (these values are given to us).
+In other words, Taro cannot swim in the sea today, and swim in the sea again tomorrow. He must do different activites on consecutive days. Let ```dp[day][i]``` equal the maximum happiness Taro can have at the end of day ```day``` if he chooses to do activity ```i``` on day ```day```. Since there are only three activites, they will be represented by ```i = 0```, ```i = 1```, and ```i = 2```. 
+
+Then, ```dp[day][i]``` is equal to the sum of the happiness Taro gets from doing activity ```i``` on day ```day``` and the maximum happiness at the end of the previous day from doing either of the two activites not equal to ```i```. Let ```happiness[i][day]``` equal the happiness Taro recieves from doing activity ```i``` on day ```day``` (these values are given to us).
 
 ### DP Statement
 
