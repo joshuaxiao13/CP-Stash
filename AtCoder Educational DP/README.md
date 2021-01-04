@@ -269,11 +269,11 @@ increase the total value of our knapsack. The only thing we need to watch out fo
 
 `dp[v]` = minimum weight-sum to make a knapsack worth ```v```
 
-Preset all dp values to ```1e18``` or any number large enough. ```dp[0] = 0``` since a bag of zero weight is worth 0.
+Preset all dp values to ```1e18```, or any number large enough. ```dp[0] = 0``` since a bag of zero weight is worth 0.
 
 Return the maximum ```v``` such that we can build a knapsack worth ```v```.
 
-If ```dp[k] = 0```, that means there is no possible way to build a knapsack with a total value of ```k``` from the given items.
+If ```dp[k] = 1e18```, it means there is no possible way to build a knapsack with a total value of ```k``` from the given items.
 
 ###### Code
 ```cpp
