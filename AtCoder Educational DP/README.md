@@ -253,8 +253,7 @@ int main() {
 
 # E - Knapsack 2
 
-This problem is extremely similar to problem D - Knapsack 2. So similar in fact, I thought it was the same exact problem, so I submitted the code from the previous
-problem, and got WA. Again, we want to find the maximum value of items we can put inside our knapsack.
+This problem is extremely similar to problem D - Knapsack 1. Again, we want to find the maximum value of items we can put inside our knapsack.
 
 The difference between problem D and E are their **constraints**. In both problems, we have at most 100 items, but in problem D, the capacity of the knapsack is at most ```1e5``` whereas in problem E, the capacity is at most ```1e9```. This is a ***huge*** difference, because it means we can't use the exact same approach in problem D. 
 We can't possibly store a billion dp values in array. So, we need to modify our approach.
