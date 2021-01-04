@@ -273,7 +273,8 @@ Preset all dp values to ```1e18```, or any number large enough. ```dp[0] = 0``` 
 
 Return the maximum ```v``` such that we can build a knapsack worth ```v```.
 
-If ```dp[k] = 1e18```, it means there is no possible way to build a knapsack with a total value of ```k``` from the given items.
+If ```dp[k] = 1e18```, it means there is no possible way to build a knapsack with a total value of ```k``` from the given items. We'll use a 64-bit integer to avoid overflow
+(maximum sum of weights is ```1e11```).
 
 ###### Code
 ```cpp
