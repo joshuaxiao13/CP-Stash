@@ -11,13 +11,13 @@ we can possibly get is at ```1e5```, not accounting for the weight capacity. It 
 
 As in the previous problem, our knapsack is limited to a maximum capacity. Let ```dp[v]``` equal the minimum weight-sum of a group of objects with values totaling to ```v```.
 We want the minimum weight-sum for a given total value ```v```` because we want to be able to build on top of this total value ```v``` by adding more items in order to 
-increase the total value of our knapsack. The only thing we need to watch out for is that ```dp[v]``` does not pass the maximum capicity of the knapsack. The answer is simply the maximum value ```v``` for all possible ways to fill up the knapsack.
+increase the total value of our knapsack. The only thing we need to watch out for is that ```dp[v]``` does not pass the maximum capicity of the knapsack. The answer is simply the maximum value ```v``` for all possible ways to fill up the knapsack. The code for this problem is very similar to problem D.
 
 ### DP Statement
 
 `dp[v]` = minimum weight-sum to make a knapsack worth ```v```
 
-Preset all dp values to ```INF = 1e18``` or any number large enough. ```dp[0] = 0``` since a bag of zero weight is worth 0.
+Preset all dp values to ```1e18``` or any number large enough. ```dp[0] = 0``` since a bag of zero weight is worth 0.
 
 Return the maximum ```v``` such that we can build a knapsack worth ```v```.
 
