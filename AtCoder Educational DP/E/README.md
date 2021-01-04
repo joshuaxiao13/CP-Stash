@@ -14,7 +14,7 @@ increase the total value of our knapsack. The only thing we need to watch out fo
 
 ### DP Statement
 
-`dp[v]` = minimum weight-sum to make a knapsack worth ```v```
+`dp[v]` = minimum weight-sum to make a knapsack worth ```v```.
 
 Preset all dp values to ```1e18``` or any number large enough. ```dp[0] = 0``` since a bag of zero weight is worth 0.
 
