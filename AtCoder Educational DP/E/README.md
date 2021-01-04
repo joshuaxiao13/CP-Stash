@@ -6,21 +6,21 @@ The difference between problem D and E are their **constraints**. In both proble
 We can't possibly store a billion dp values in array. So, we need to modify our approach.
 
 If we look at the constraint on the value of each item, we see that this number is no greater than ```1e3```. Since there are at most 100 items, the maximum value of items
-we can possibly get is at ```1e5```, not accounting for the weight capacity. It is perfectly fine to have an array of ```1e5``` elements. Thus, we will work in terms of the value of a group of items, instead of it's total weight-sum as in problem D.
+we can possibly get is at ```1e5```, not accounting for the weight capacity. It is perfectly fine to have an array of ```1e5``` elements. Thus, we will work in terms of the value of a group of items, instead of its total weight-sum as in problem D.
 
-As in the previous problem, our knapsack is limited to a maximum capacity. Let ```dp[v]``` equal the minimum weight-sum of a group of objects with values totaling to ```v```.
-We want the minimum weight-sum for a given total value ```v``` because we want to be able to build on top of this total value ```v``` by adding more items in order to 
+As in the previous problem, our knapsack is limited to a maximum capacity. Let ```dp[v]``` equal the minimum weight-sum of a group of objects with values totaling to exactly ```v```. We want the minimum weight-sum for a given total value ```v``` because we want to be able to build on top of this total value ```v``` by adding more items in order to 
 increase the total value of our knapsack. The only thing we need to watch out for is that ```dp[v]``` does not pass the maximum capicity of the knapsack. The answer is simply the maximum value ```v``` for all possible ways to fill up the knapsack. The code for this problem is very similar to problem D.
 
 ### DP Statement
 
 `dp[v]` = minimum weight-sum to make a knapsack worth ```v```.
 
-Preset all dp values to ```1e18``` or any number large enough. ```dp[0] = 0``` since a bag of zero weight is worth 0.
+Preset all dp values to ```1e18```, or any number large enough. ```dp[0] = 0``` since a bag of zero weight is worth 0.
 
 Return the maximum ```v``` such that we can build a knapsack worth ```v```.
 
-If ```dp[k] = 0```, that means there is no possible way to build a knapsack with a total value of ```k``` from the given items. We'll use a 64-bit integer to avoid overflow (maximum sum of weights is ```1e11```).
+If ```dp[k] = 1e18```, it means there is no possible way to build a knapsack with a total value of ```k``` from the given items. We'll use a 64-bit integer to avoid overflow
+(maximum sum of weights is ```1e11```).
 
 ###### Code
 ```cpp
