@@ -4,7 +4,7 @@ This problem is extremely similar to problem D - Knapsack 2. So similar in fact,
 problem, and got WA. Again, we want to find the maximum value of items we can put inside our knapsack.
 
 The difference between problem D and E are their **constraints**. In both problems, we have at most 100 items, but in problem D, the capacity of the knapsack is at most ```1e5``` whereas in problem E, the capacity is at most ```1e9```. This is a ***huge*** difference, because it means we can't use the exact same approach in problem D. 
-We can't possible store a billion dp values in array. So, we need to modify our approach.
+We can't possibly store a billion dp values in array. So, we need to modify our approach.
 
 If we look at the constraint on the value of each item, we see that this number is no greater than ```1e3```. Since there are at most 100 items, the maximum value of items
 we can get is ```1e5```. It is perfectly fine to have an array of ```1e5``` elements. Thus, we will work in terms of the value of a group of items, instead of it's total weight-sum as in problem D.
