@@ -7,7 +7,7 @@ The difference between problem D and E are their **constraints**. In both proble
 We can't possibly store a billion dp values in array. So, we need to modify our approach.
 
 If we look at the constraint on the value of each item, we see that this number is no greater than ```1e3```. Since there are at most 100 items, the maximum value of items
-we can get is ```1e5```. It is perfectly fine to have an array of ```1e5``` elements. Thus, we will work in terms of the value of a group of items, instead of it's total weight-sum as in problem D.
+we can possibly get is at ```1e5```, not accounting for the weight capacity. It is perfectly fine to have an array of ```1e5``` elements. Thus, we will work in terms of the value of a group of items, instead of it's total weight-sum as in problem D.
 
 As in the previous problem, our knapsack is limited to a maximum capacity. Let ```dp[v]``` equal the minimum weight-sum of a group of objects with a values totaling to ```v```.
 We want the minimum weight-sum because we want to be able to build on top of this total value ```v``` by adding more items, in order to increase the total value of items. The
