@@ -171,7 +171,7 @@ int main() {
 		}
 	}
 	
-	cout << max({dp[N-1][0], dp[N-1][1], dp[N-1][2]})<< '\n';
+	cout << max({dp[N-1][0], dp[N-1][1], dp[N-1][2]}) << '\n';
 	
 	return 0;
 }
