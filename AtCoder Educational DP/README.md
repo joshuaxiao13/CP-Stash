@@ -23,6 +23,10 @@ I - [Coins](https://atcoder.jp/contests/dp/tasks/dp_i) | Dec 6
 J - [Sushi](https://atcoder.jp/contests/dp/tasks/dp_j) | Dec 6
 K - [Stones](https://atcoder.jp/contests/dp/tasks/dp_k) | Dec 7
 L - [Deque](https://atcoder.jp/contests/dp/tasks/dp_l) | Dec 7
+M - [Candies](https://atcoder.jp/contests/dp/tasks/dp_m) | Dec 8
+N - [Slimes](https://atcoder.jp/contests/dp/tasks/dp_n) | Dec 8
+O - [Matching](https://atcoder.jp/contests/dp/tasks/dp_o) | Dec 9
+P - [Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p) | Dec 9
 
 
 
