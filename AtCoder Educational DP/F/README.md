@@ -4,7 +4,7 @@ In this problem, we need to find the longest subsequence shared by strings ```s`
 
 Now the challenge is to find the subsequence, not just the length. We can keep track, for each dp state, whether it is optimal to 
 
-1. take the back character common to both prefixes
+1. take the back character common to both prefixes and add it to the LCS
 2. or throw away the back character from the prefix of ```s```
 2. or throw away the back character from the prefix of ```t```. 
 
