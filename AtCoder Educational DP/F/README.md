@@ -1,6 +1,6 @@
 # F - LCS (Longest Common Subsequence)
 
-#### DP Statement
+### DP Statement
 
 ###### Code
 ```cpp
