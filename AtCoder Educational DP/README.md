@@ -345,7 +345,7 @@ Now the challenge is to find the subsequence, not just the length. We can keep t
 2. or throw away the back character from the prefix of ```s```
 2. or throw away the back character from the prefix of ```t```. 
 
-Let ```choice[j][i]``` represent the optimal choice we can make when we have prefixes of ```s``` and ```t``` as described above. ```choice[j][i] = 0``` if we want to include the back character in our LCS, ```choice[j][i] = 1``` if we throw away the back letter of the prefix of ```s```, and ```choice[j][i] = 2``` if we throw away the back letter of the prefix of ```t```.
+Let ```choice[j][i]``` represent the optimal choice we can make when we have prefixes of ```s``` and ```t``` as described above. ```choice[j][i] = 0``` if we include the back character in our LCS, ```choice[j][i] = 1``` if we throw away the back letter of the prefix of ```s```, and ```choice[j][i] = 2``` if we throw away the back letter of the prefix of ```t```.
 
 ### DP Statement
 
