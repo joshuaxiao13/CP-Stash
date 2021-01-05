@@ -23,7 +23,7 @@ int main() {
 		for(int i = 0; i < W; ++i) {
 			char a;
 			cin >> a;
-			grid[j][i] = (a == 	'.');
+			grid[j][i] = (a == '.');
 		}
 	}
 	
