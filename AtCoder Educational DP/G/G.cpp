@@ -10,8 +10,7 @@ vector<int> topoSort;
 void dfs(int u) {
 	vis[u] = true;
 	for(auto v : adj[u]) {
-		if(!vis[v]) 
-			dfs(v);
+		if(!vis[v]) dfs(v);
 	}	
 	topoSort.push_back(u);
 }
@@ -31,8 +30,7 @@ int main() {
 	}
 	
 	for(int i = 0; i < N; ++i) {
-		if(!vis[i]) 
-			dfs(i);
+		if(!vis[i]) dfs(i);
 	}
 	
 	reverse(topoSort.begin(), topoSort.end());
