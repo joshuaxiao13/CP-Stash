@@ -44,7 +44,6 @@ int main() {
 	}
 
 	reverse(ans.begin(), ans.end());
-	
 	cout << ans << '\n';
 	
 	return 0;
