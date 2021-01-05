@@ -12,7 +12,7 @@ Let ```trace[j][i]``` represent what we do with the given prefixes as described 
 
 ### DP Statement
 
-```
+```cpp
 if(s[j] == t[i]) dp[j][i] = dp[j-1][i-1] + 1
 else dp[j][i] = max(dp[j-1][i], dp[j][i-1])
 ```
