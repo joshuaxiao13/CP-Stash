@@ -8,7 +8,7 @@ Now the challenge is to find the subsequence, not just the length. We can keep t
 2. or throw away the back character from the prefix of ```s```
 2. or throw away the back character from the prefix of ```t```. 
 
-Let ```trace[j][i]``` represent what we do with the given prefixes as described earlier. ```trace[j][i] = 0``` if we want to include the back character in our LCS, ```trace[j][i] = 1``` if we throw away the back letter of the prefix of ```s```, and ```trace[j][i] = 2``` if we throw away the back letter of the prefix of ```t```.
+Let ```trace[j][i]``` represent the optimal decision when we have prefixes of ```s``` and ```t``` as described above. ```trace[j][i] = 0``` if we want to include the back character in our LCS, ```trace[j][i] = 1``` if we throw away the back letter of the prefix of ```s```, and ```trace[j][i] = 2``` if we throw away the back letter of the prefix of ```t```.
 
 ### DP Statement
 
