@@ -17,7 +17,7 @@ int main() {
 		for(int i = 0; i < W; ++i) {
 			char a;
 			cin >> a;
-			grid[j][i] = (a == '.');
+			grid[j][i] = (a == 	'.');
 		}
 	}
 	
@@ -27,8 +27,9 @@ int main() {
 	
 	for(int j = 0; j < H; ++j) {
 		for(int i = 0; i < W; ++i) {
-			if(j - 1 >= 0 && grid[j-1][i]) dp[j][i] = (dp[j][i] + dp[j-1][i]) % MOD;
-			if(i - 1 >= 0 && grid[j][i-1]) dp[j][i] = (dp[j][i] + dp[j][i-1]) % MOD;
+			if(!grid[j][i]) continue;
+			if(j - 1 >= 0) dp[j][i] = (dp[j][i] + dp[j-1][i]) % MOD;
+			if(i - 1 >= 0)  dp[j][i] = (dp[j][i] + dp[j][i-1]) % MOD;
 		}
 	}
 	
