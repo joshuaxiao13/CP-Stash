@@ -39,7 +39,7 @@ int main() {
 		for(int i = 0; i < W; ++i) {
 			if(!grid[j][i]) continue;
 			if(j - 1 >= 0) dp[j][i] = (dp[j][i] + dp[j-1][i]) % MOD;
-			if(i - 1 >= 0)  dp[j][i] = (dp[j][i] + dp[j][i-1]) % MOD;
+			if(i - 1 >= 0) dp[j][i] = (dp[j][i] + dp[j][i-1]) % MOD;
 		}
 	}
 	
