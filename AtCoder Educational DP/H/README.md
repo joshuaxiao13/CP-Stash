@@ -1,7 +1,7 @@
 # H - Grid 1
 
 
-> Taro will start from Square *(1, 1)* and reach *(H, W)* by repeatedly moving **right** or **down** to an adjacent empty square.
+> Taro will start from Square (1, 1) and reach (*H*, *W*) by repeatedly moving **right** or **down** to an adjacent empty square.
 
 ### DP Statement
 
