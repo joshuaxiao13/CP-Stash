@@ -8,7 +8,7 @@ Now the challenge is to find the subsequence, not just the length. We can keep t
 2. or throw away the back character from the prefix of ```s```
 2. or throw away the back character from the prefix of ```t```. 
 
-Let ```trace[j][i]``` represent the optimal decision we can make when we have prefixes of ```s``` and ```t``` as described above. ```trace[j][i] = 0``` if we want to include the back character in our LCS, ```trace[j][i] = 1``` if we throw away the back letter of the prefix of ```s```, and ```trace[j][i] = 2``` if we throw away the back letter of the prefix of ```t```.
+Let ```choice[j][i]``` represent the optimal choice we can make when we have prefixes of ```s``` and ```t``` as described above. ```choice[j][i] = 0``` if we want to include the back character in our LCS, ```choice[j][i] = 1``` if we throw away the back letter of the prefix of ```s```, and ```choice[j][i] = 2``` if we throw away the back letter of the prefix of ```t```.
 
 ### DP Statement
 
@@ -18,7 +18,7 @@ else dp[j][i] = max(dp[j-1][i], dp[j][i-1])
 ```
 
 We preset all dp values to ```0```. ```dp[n][m]``` will be the length of the LCS, where ```n``` and ```m``` are the lengths of ```s``` and ```t``` respectively.
-We can use the 2-D arary ```trace[][]``` to trace back the optimal choices.
+We can use the 2-D arary ```choice``` to trace back the optimal choices.
 
 ###### Code
 ```cpp
@@ -37,21 +37,21 @@ int main() {
 	int m = t.size();
 	
 	vector<vector<int>> dp(n + 1, vector<int>(m + 1, 0));
-	vector<vector<int>> trace(n + 1, vector<int>(m + 1, -1));
+	vector<vector<int>> choice(n + 1, vector<int>(m + 1, -1));
 	
 	for(int j = 1; j <= n; ++j) {
 		for(int i = 1; i <= m; ++i) {
 			if(s[j-1] == t[i-1]) {
 				dp[j][i] = dp[j-1][i-1] + 1;
-				trace[j][i] = 0;
+				choice[j][i] = 0;
 			}
 			else if(dp[j-1][i] > dp[j][i-1]){
 				dp[j][i] = dp[j-1][i];
-				trace[j][i] = 1;
+				choice[j][i] = 1;
 			}
 			else {
 				dp[j][i] = dp[j][i-1];
-				trace[j][i] = 2;
+				choice[j][i] = 2;
 			}
 		}
 	}
@@ -59,8 +59,8 @@ int main() {
 	string ans = "";
 	
 	while(dp[n][m]--) {
-		while(trace[n][m] != 0) {
-			if(trace[n][m] == 1) --n;
+		while(choice[n][m] != 0) {
+			if(choice[n][m] == 1) --n;
 			else --m; 
 		}
 		ans += s[n-1];
@@ -68,9 +68,9 @@ int main() {
 	}
 
 	reverse(ans.begin(), ans.end());
+	
 	cout << ans << '\n';
 	
 	return 0;
 }
-
 ```
