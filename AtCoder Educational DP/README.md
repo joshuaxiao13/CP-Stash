@@ -16,7 +16,7 @@ B - [Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)| [Explaination](#b---fro
 C - [Vacation](https://atcoder.jp/contests/dp/tasks/dp_c) | [Explaination](#c---vacation)
 D - [Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d) | [Explaination](#d---knapsack-1)
 E - [Knapsack 2](https://atcoder.jp/contests/dp/tasks/dp_e) | [Explaination](#e---knapsack-2)
-F - [LSC (Longest Common Subsequence)](https://atcoder.jp/contests/dp/tasks/dp_f) | [Explaination](#f---lcs-(longest-common-subsequence))
+F - [LSC (Longest Common Subsequence)](https://atcoder.jp/contests/dp/tasks/dp_f) | [Explaination](#f---lcs-longest-common-subsequence)
 G - [Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g) | Dec 4
 H - [Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h) | Dec 4
 I - [Coins](https://atcoder.jp/contests/dp/tasks/dp_i) | Dec 5
