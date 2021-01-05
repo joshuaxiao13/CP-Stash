@@ -10,7 +10,7 @@ really care what those items are, we are more concerned with the maximum value f
 
 For more information on Knapsack Problems, read from page 72 of this [book](https://cses.fi/book/book.pdf).
 
-### DP Statemet
+### DP Statement
 
 ```cpp
 dp[sumW + w[k]] = max(dp[sumW] + value[k])
