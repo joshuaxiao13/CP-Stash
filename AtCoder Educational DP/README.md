@@ -19,14 +19,14 @@ E - [Knapsack 2](https://atcoder.jp/contests/dp/tasks/dp_e) | [Explaination](#e-
 F - [LSC (Longest Common Subsequence)](https://atcoder.jp/contests/dp/tasks/dp_f) | [Explaination](#f---lcs-longest-common-subsequence)
 G - [Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g) | [Explaination](#g---longest-path)
 H - [Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h) | [Explaination](#h---grid-1)
-I - [Coins](https://atcoder.jp/contests/dp/tasks/dp_i) | Jan 6
-J - [Sushi](https://atcoder.jp/contests/dp/tasks/dp_j) | Jan 6
-K - [Stones](https://atcoder.jp/contests/dp/tasks/dp_k) | Jan 7
-L - [Deque](https://atcoder.jp/contests/dp/tasks/dp_l) | Jan 7
-M - [Candies](https://atcoder.jp/contests/dp/tasks/dp_m) | Jan 8
-N - [Slimes](https://atcoder.jp/contests/dp/tasks/dp_n) | Jan 8
-O - [Matching](https://atcoder.jp/contests/dp/tasks/dp_o) | Jan 9
-P - [Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p) | Jan 9
+I - [Coins](https://atcoder.jp/contests/dp/tasks/dp_i) | Jan 7
+J - [Sushi](https://atcoder.jp/contests/dp/tasks/dp_j) | Jan 8
+K - [Stones](https://atcoder.jp/contests/dp/tasks/dp_k) | Jan 9
+L - [Deque](https://atcoder.jp/contests/dp/tasks/dp_l) | Jan 9
+M - [Candies](https://atcoder.jp/contests/dp/tasks/dp_m) | Jan 10
+N - [Slimes](https://atcoder.jp/contests/dp/tasks/dp_n) | Jan 11
+O - [Matching](https://atcoder.jp/contests/dp/tasks/dp_o) | Jan 12
+P - [Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p) | Jan 13
 
 
 
