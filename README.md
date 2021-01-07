@@ -1,6 +1,6 @@
 # CP - Stash
 
-### AtCoder DP Educational Editorial (Work In Progress)
+### AtCoder DP Educational Editorial (Work In Progress... busy with school)
 
 [Here](https://github.com/joshuaxiao13/CP-Stash/blob/main/AtCoder%20Educational%20DP/README.md), you can find my solutions and detailed explainations to AtCoder's DP Educational Contest. 
 
