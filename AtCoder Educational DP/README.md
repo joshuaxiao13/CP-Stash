@@ -7,7 +7,7 @@ The AtCoder Educational DP is a collection of 26 standard dynamic programming (D
 It's a great resource for those who are starting DP, and for those who are brushing up on their skills.
 Here, **you can find my code (in C++) and explainations** for each one of the problems.
 
-### Problems - Click [here](https://atcoder.jp/contests/dp/tasks) for the full list of tasks
+#### Problems - Click [here](https://atcoder.jp/contests/dp/tasks) for the full list of tasks
 
 Problem | Editorial + Code
 ------- | ----------------
