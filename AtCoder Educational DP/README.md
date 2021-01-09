@@ -19,7 +19,7 @@ E - [Knapsack 2](https://atcoder.jp/contests/dp/tasks/dp_e) | [Explaination](#e-
 F - [LSC (Longest Common Subsequence)](https://atcoder.jp/contests/dp/tasks/dp_f) | [Explaination](#f---lcs-longest-common-subsequence)
 G - [Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g) | [Explaination](#g---longest-path)
 H - [Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h) | [Explaination](#h---grid-1)
-I - [Coins](https://atcoder.jp/contests/dp/tasks/dp_i) | Jan 7
+I - [Coins](https://atcoder.jp/contests/dp/tasks/dp_i) | [Explaination](#i---coins)
 J - [Sushi](https://atcoder.jp/contests/dp/tasks/dp_j) | Jan 8
 K - [Stones](https://atcoder.jp/contests/dp/tasks/dp_k) | Jan 9
 L - [Deque](https://atcoder.jp/contests/dp/tasks/dp_l) | Jan 9
