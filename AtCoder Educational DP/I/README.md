@@ -54,7 +54,7 @@ int main() {
 }
 ```
 
-*** More Memory-Efficient Solution
+### More Memory-Efficient Solution
 
 The idea is to use a 1D dp array, where `dp[h]` equals the probability that Taro flips `h` heads so far, as we go through the list of coins from left to right. Notice that the probability for flipping `h` heads is dependent on the probability of flipping `h` and `h-1` from the previous move. Thus, we calculate the dp values for larger values of `h` first. By updating the probabilities for larger `h` first, we make sure all probabilities are calculated correctly.
 
