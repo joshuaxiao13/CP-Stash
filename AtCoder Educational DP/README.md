@@ -571,7 +571,7 @@ Notice that to get `h` heads after flipping `i` coins, we must've flipped `h` or
 ```cpp
 dp[i][h] = dp[i-1][h] + (1-p[i]) + dp[i-1][h-1] * p[i]
 ```
-where `p[i]` is the probability of flipping heads with coin `i`. Preset `dp[0][0] = 1` since the probability of flipping 0 heads with the first 0 coins is always equal to 1 - there are 0 heads when Taro flips no coins. We either arrive at the answer by summing all probabilities of rolling greater than or equal to `ceil(N/2)` heads with the `N` coins, or use complementary counting.
+where `p[i]` is the probability of flipping heads with coin `i`. Preset `dp[0][0] = 1` since the probability of flipping 0 heads with the first 0 coins is always equal to 1 - there are 0 heads to begin with. We either arrive at the answer by summing all probabilities of rolling greater than or equal to `ceil(N/2)` heads with the `N` coins, or use complementary counting.
 
 ###### Code 
 ```cpp
