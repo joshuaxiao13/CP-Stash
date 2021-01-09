@@ -23,6 +23,7 @@ int main() {
 	}
 	
 	double ans = 0;
+	
 	for(int h = 0; h <= N/2 ; ++h)
 		ans += dp[N][h];
 	
