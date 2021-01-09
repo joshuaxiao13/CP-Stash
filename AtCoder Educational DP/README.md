@@ -562,7 +562,7 @@ In this problem, Taro has `N` coins, each with their own probability of landing 
 
 > Let *N* be a positive odd number
 
-Since `N` is odd, we want to find the probability of flipping greater than or equal to `ceil(N/2)` coins because `ceil(N/2)` heads is the minimum number for there to be more heads than tails. This total probabilty is equal to the sum of probabilties of flipping exactly `ceil(N/2)`, `ceil(N/2) + 1`, ..., `N` heads. Let `dp[i][h]` equal the probability that Taro flips exactly `h` heads with the first `i` coins. Then, using complementary counting the answer is equal to 1 minus the probability that there are more tails than heads. This is equal to 1 minus to the sum of probabilities of flipping 0, 1, ..., `floor(N/2)` heads. 
+Since `N` is odd, we want to find the probability of flipping greater than or equal to `ceil(N/2)` coins because `ceil(N/2)` heads is the minimum number for there to be more heads than tails. This total probabilty is equal to the sum of probabilties of flipping exactly `ceil(N/2)`, `ceil(N/2) + 1`, ..., `N` heads. Let `dp[i][h]` equal the probability that Taro flips exactly `h` heads with the first `i` coins. Then, using [complementary counting](https://artofproblemsolving.com/wiki/index.php/Complementary_counting) the answer is equal to 1 minus the probability that there are more tails than heads. This is equal to 1 minus to the sum of probabilities of flipping 0, 1, ..., `floor(N/2)` heads. 
 
 Notice that to get `h` heads after flipping `i` coins, we must've flipped `h` or `h-1` coins after flipping the first `i-1` coins. Thus, `dp[i][h] = dp[i-1][h] + (1-p[i]) + dp[i-1][h-1] * p[i]` where `p[i]` is the probability of flipping heads with coin `i`.
 
