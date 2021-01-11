@@ -20,7 +20,7 @@ G - [Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g) | [Explaination](#
 H - [Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h) | [Explaination](#h---grid-1)
 I - [Coins](https://atcoder.jp/contests/dp/tasks/dp_i) | [Explaination](#i---coins)
 J - [Sushi](https://atcoder.jp/contests/dp/tasks/dp_j) | ??? need more time
-K - [Stones](https://atcoder.jp/contests/dp/tasks/dp_k) | very busy with uni apps + lin all
+K - [Stones](https://atcoder.jp/contests/dp/tasks/dp_k) | very busy with uni apps + lin alg
 L - [Deque](https://atcoder.jp/contests/dp/tasks/dp_l) | will work on these soon
 M - [Candies](https://atcoder.jp/contests/dp/tasks/dp_m) | 
 N - [Slimes](https://atcoder.jp/contests/dp/tasks/dp_n) | 
