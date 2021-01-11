@@ -20,12 +20,12 @@ G - [Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g) | [Explaination](#
 H - [Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h) | [Explaination](#h---grid-1)
 I - [Coins](https://atcoder.jp/contests/dp/tasks/dp_i) | [Explaination](#i---coins)
 J - [Sushi](https://atcoder.jp/contests/dp/tasks/dp_j) | ??? need more time
-K - [Stones](https://atcoder.jp/contests/dp/tasks/dp_k) | Jan 9
-L - [Deque](https://atcoder.jp/contests/dp/tasks/dp_l) | Jan 10
-M - [Candies](https://atcoder.jp/contests/dp/tasks/dp_m) | Jan 11
-N - [Slimes](https://atcoder.jp/contests/dp/tasks/dp_n) | Jan 12
-O - [Matching](https://atcoder.jp/contests/dp/tasks/dp_o) | Jan 13
-P - [Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p) | Jan 14
+K - [Stones](https://atcoder.jp/contests/dp/tasks/dp_k) | very busy with uni apps + lin all
+L - [Deque](https://atcoder.jp/contests/dp/tasks/dp_l) | will work on these soon
+M - [Candies](https://atcoder.jp/contests/dp/tasks/dp_m) | 
+N - [Slimes](https://atcoder.jp/contests/dp/tasks/dp_n) | 
+O - [Matching](https://atcoder.jp/contests/dp/tasks/dp_o) | 
+P - [Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p) | 
 
 
 
