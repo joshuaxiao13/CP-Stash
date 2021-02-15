@@ -11,7 +11,7 @@ Suppose Taro and Jiro have already removed some elements from the beginning and 
 1. remove `a[L]` or 
 2. remove `a[R]`
 
-Let `dp[L][R]` equal the maximum value of the difference of scores (score of current player choosing minus score of opponent) if the players were playing the game with the subarray [`L`, `R`] as defined above, and not the necessarily the original sequence. It follows that
+Let `dp[L][R]` equal the maximum value of the difference of scores (score of current player choosing minus score of opponent) if the players were playing the game with the subarray [`L`, `R`] as defined above, not the necessarily the original sequence. It follows that
 
 ```cpp
 dp[L][R] = max(a[L] - dp[L+1][R], a[R] - dp[L][R-1])
