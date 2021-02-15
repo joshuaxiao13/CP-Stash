@@ -1,6 +1,6 @@
 # L - Deque
 
-In this problem, Taro and Jiro take turns removing elements from the beginning or end of some sequence, `a`, until the sequence is empty. They sum up the values of the elements they choose to get their score.
+In this problem, Taro and Jiro take turns removing elements from the beginning or end of some sequence, `a`, of size `N` until the sequence is empty. They sum up the values of the elements they choose to get their score.
 
 > Let `X` and `Y` be Taro's and Jiro's total score at the end of the game, respectively. Taro tries to maximize `X − Y`, while Jiro tries to minimize `X − Y`.
 
@@ -41,6 +41,14 @@ If the current player removes from the end, the remaining sequence is the interv
 `dp[L][R]` is the maximum value from both cases because each player wishes to optimize the difference between their final score and their opponents final score. We should also consider that dp values where `L` is strictly greater than `R` have no significance, and thus should be equal to zero.
 
 ### DP Statement
+
+```cpp
+dp[L][R] = max(a[L] - dp[L+1][R], a[R] - dp[L][R-1])
+```
+
+for all 0 <= `L` <= `R` < N. If there is one element remaining in the sequence, `L` will equal `R`, and the dp value is simply the value of `a[L]` or `a[R]` (they will be equal). This is because after taking the final element, the game ends, and the players cannot increase their score anymore.
+
+Return `dp[0][N-1]`, the maximum difference of the final scores of the first and second player.
 
 ##### Code
 
