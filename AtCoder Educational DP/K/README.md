@@ -18,9 +18,7 @@ We can come up with our dp statement using this observation.
 if(dp[R] == false) dp[R + x] = true
 ```
 
-for all elements `x` in `A`, the set of stones . Preset `dp[0] = false` since it is impossible to remove any stones from a pile of 0 stones. Thus, 0 stones is a losing pile.
-
-If `dp[K]` is true, then the first player will win. Else, the second player will win.
+for all elements `x` in `A`, the set of stones . Preset all dp values equal to zero. If `dp[K]` is true, then the first player will win. Else, the second player will win.
 
 ##### Code
 
