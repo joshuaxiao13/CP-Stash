@@ -10,7 +10,7 @@ It follows that if a player is presented with the same set of stones, `A`, and m
 
 If we remove `x` stones from a pile of `R + x` stones, and we know `R` remaining stones is a losing pile, then `R + x` stones must be a winning pile because we can always remove `x` stones to force a losing hand for the opponent.
 
-Using this observation, we can now write our dp statement.
+We can come up with our dp statement using this observation.
 
 ### DP Statement
 
