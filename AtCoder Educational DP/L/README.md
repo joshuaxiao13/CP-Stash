@@ -25,7 +25,7 @@ This is represented by:
 ```cpp
 a[L] - dp[L+1][R]
 ```
-Note `dp[L+1][R]` is equal to the maximum difference of scores that the opponent can get working with the sequence remaining after `a[L]` is removed. Algebraically, `a[L] - dp[L+1][R]` is the maximum difference of scores for the current player if he decides to remove from the beginning.
+If the current player removes from the beginning, the remaining sequence is the interval [`L+1`, `R`]. Note `dp[L+1][R]` is equal to the maximum difference of scores that the opponent can get working with the sequence remaining after `a[L]` is removed. Algebraically, `a[L] - dp[L+1][R]` is the maximum difference of scores for the current player if he decides to remove from the beginning.
 
 #### Case 2: Current Player Removes From the End of the Sequence
 
@@ -33,7 +33,7 @@ This is represented by:
 ```cpp
 a[R] - dp[L][R-1]
 ```
-Note `dp[L][R-1]` is equal to the maximum difference of scores that the opponent can get working with the sequence remaining after `a[R]` is removed. Algebraically, `a[R] - dp[L][R-1]` is the maximum difference of scores for the current player if he decides to remove from the end.
+If the current player removes from the end, the remaining sequence is the interval [`L`, `R-1`]. Note `dp[L][R-1]` is equal to the maximum difference of scores that the opponent can get working with the sequence remaining after `a[R]` is removed. Algebraically, `a[R] - dp[L][R-1]` is the maximum difference of scores for the current player if he decides to remove from the end.
 
 ### DP Statement
 
