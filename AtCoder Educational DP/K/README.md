@@ -1,6 +1,6 @@
 # K - Stones
 
-In this problem, Taro and Jiro have a pile of `K` stones and they each take turns removing some number of stones.
+In this problem, Taro and Jiro have a pile of `K` stones and they each take turns removing some number of stones from the pile.
 
 > Choose an element `x` in `A` (the set of stones to choose from), and remove exactly `x` stones from the pile. A player loses when he becomes unable to play.
 
