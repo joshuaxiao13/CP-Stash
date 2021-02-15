@@ -18,9 +18,11 @@ int main() {
 
 	for(int i = 0; i < K; ++i) {
 		if(!dp[i]) {
-			for(auto x : stones)
+			for(auto x : stones) {
 				if(i + x <= K) {
 					dp[i+x] = true;
+				}
+			}
 		}
 	}
 
