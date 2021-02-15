@@ -47,7 +47,7 @@ int main() {
 		if(!dp[R]) {
 			for(auto x : stones) {
 				if(R + x <= K) {
-					dp[R+x] = true;
+					dp[R + x] = true;
          			}
      			 }
 		}
