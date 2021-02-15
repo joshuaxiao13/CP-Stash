@@ -80,7 +80,7 @@ int main() {
 		}
 	}
 	
-	cout << dp[0][N-1];
+	cout << dp[0][N-1] << '\n';
 	
 	return 0;
 }
