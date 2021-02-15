@@ -37,6 +37,7 @@ If the current player removes from the end, the remaining sequence is the interv
 \
 \
 \
+\
 `dp[L][R]` is the maximum value from both cases because each player is playing optimally and wishes to maximize the difference between their final score and their opponents final score. We should also consider that dp values where `L` is strictly greater than `R` have no significance, and thus should be equal to zero.
 
 ### DP Statement
