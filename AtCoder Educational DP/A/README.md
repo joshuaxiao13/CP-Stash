@@ -1,5 +1,7 @@
 # A - Frog 1
 
+> If the frog is currently on Stone `i`, jump to Stone `i+1` or Stone `i+2`.
+
 The frog can only jump 1 or 2 stones ahead from the stone that the frog is currently on. Thus, to jump to stone ```i```, 
 the frog must've previously been on stone ```i-1``` or ```i-2```. Let ```dp[i]``` equal the minimum cost to jump to stone ```i```, and 
 ```cost(a, b)``` equal the cost to jump from stone ```a``` to stone ```b```. Then, 
