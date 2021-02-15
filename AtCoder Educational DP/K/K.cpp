@@ -16,13 +16,13 @@ int main() {
 
 	vector<bool> dp(K + 1, false);
 
-	for(int i = 0; i < K; ++i) {
-		if(!dp[i]) {
+	for(int R = 0; R < K; ++R) {
+		if(!dp[R]) {
 			for(auto x : stones) {
-				if(i + x <= K) {
-					dp[i+x] = true;
-				}
-			}
+				if(R + x <= K) {
+					dp[R + x] = true;
+         			}
+     			 }
 		}
 	}
 
