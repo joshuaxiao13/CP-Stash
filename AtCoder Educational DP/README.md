@@ -812,4 +812,6 @@ int main() {
 }
 ```
 
+This problem is also on the [CSES Problem Set](https://cses.fi/problemset/task/1097) in the Dynamic Programming section.
+
 ##### [Go to top of page](#atcoder-educational-dp)
