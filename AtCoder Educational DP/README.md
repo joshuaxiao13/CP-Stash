@@ -21,7 +21,7 @@ H - [Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h) | [Explaination](#h---gr
 I - [Coins](https://atcoder.jp/contests/dp/tasks/dp_i) | [Explaination](#i---coins)
 J - [Sushi](https://atcoder.jp/contests/dp/tasks/dp_j) | ???
 K - [Stones](https://atcoder.jp/contests/dp/tasks/dp_k) | [Explaination](#k---stones)
-L - [Deque](https://atcoder.jp/contests/dp/tasks/dp_l) | [Explaination](#l--deque)
+L - [Deque](https://atcoder.jp/contests/dp/tasks/dp_l) | [Explaination](#l---deque)
 M - [Candies](https://atcoder.jp/contests/dp/tasks/dp_m) | 
 N - [Slimes](https://atcoder.jp/contests/dp/tasks/dp_n) | 
 O - [Matching](https://atcoder.jp/contests/dp/tasks/dp_o) | 
