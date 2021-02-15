@@ -1,6 +1,6 @@
 # L - Deque
 
-In this problem, Taro and Jiro remove elements from the beginning or end of the a sequence `a` until the sequence is empty. They add the value of the element they take to their score.
+In this problem, Taro and Jiro take turns removing elements from the beginning or end of the a sequence `a` until the sequence is empty. They add the value of the element they take to their score.
 
 > Let `X` and `Y` be Taro's and Jiro's total score at the end of the game, respectively. Taro tries to maximize `X − Y`, while Jiro tries to minimize `X − Y`.
 
