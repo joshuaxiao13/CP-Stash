@@ -812,6 +812,6 @@ int main() {
 }
 ```
 
-This problem is also on the [CSES Problem Set](https://cses.fi/problemset/task/1097) under the Dynamic Programming section, except you need to find the maximum score of the first player, not the difference. This can be done with some math.
+**Note:** This problem is also on the [CSES Problem Set](https://cses.fi/problemset/task/1097) under the Dynamic Programming section, except you need to find the maximum score of the first player, not the difference. This can be done with some math.
 
 ##### [Go to top of page](#atcoder-educational-dp)
