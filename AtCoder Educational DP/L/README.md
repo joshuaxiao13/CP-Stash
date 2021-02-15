@@ -11,7 +11,7 @@ Suppose Taro and Jiro have already removed some elements from the beginning and 
 1. remove `a[L]` or 
 2. remove `a[R]`
 
-Let `dp[L][R]` equal the maximum value of the difference of scores (score of current player choosing minus score of opponent) where the current player is choosing from the remaining subarray [`L`, `R`] as defined above. Each player wants to maximize this dp value when it gets to their turn because this is how they can optimally increase their scores. It follows that
+Let `dp[L][R]` equal the maximum value of the difference of scores (score of current player choosing minus score of opponent) if the players were playing with the subarray [`L`, `R`] as defined above, and not the necessarily the original sequence. It follows that
 
 ```cpp
 dp[L][R] = max(a[L] - dp[L+1][R], a[R] - dp[L][R-1])
@@ -38,7 +38,7 @@ If the current player removes from the end, the remaining sequence is the interv
 
 
 
-`dp[L][R]` is the maximum value from both cases because each player wishes to optimize the difference between their final score and their opponents final score. We should also consider that dp values where `L` is strictly greater than `R` have no significance, and thus should be equal to zero.
+`dp[L][R]` is the maximum value from both cases because each player is playing optimally and wishes to maximize the difference between their final score and their opponents final score. We should also consider that dp values where `L` is strictly greater than `R` have no significance, and thus should be equal to zero.
 
 ### DP Statement
 
@@ -46,9 +46,9 @@ If the current player removes from the end, the remaining sequence is the interv
 dp[L][R] = max(a[L] - dp[L+1][R], a[R] - dp[L][R-1])
 ```
 
-for all 0 <= `L` <= `R` < N. If there is one element remaining in the sequence, `L` will equal `R`, and the dp value is simply the value of `a[L]` or `a[R]` (they will be equal). This is because after taking the final element, the game ends, and the players cannot increase their score anymore.
+for all 0 <= `L` <= `R` < N. If there is one element remaining in the sequence, `L` will equal `R`, and the dp value is simply the value of `a[L]` or `a[R]` (they will be equal). This is because after taking the final element, the game ends, and the players cannot increase their scores anymore.
 
-Return `dp[0][N-1]`, the maximum difference of the final scores of the first and second player.
+Return `dp[0][N-1]`, the maximum difference of the final scores of the first and second player if they both play optimally.
 
 ##### Code
 
