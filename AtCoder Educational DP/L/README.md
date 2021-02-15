@@ -11,7 +11,7 @@ Suppose Taro and Jiro have already removed some elements from the beginning and 
 1. remove `a[L]` or 
 2. remove `a[R]`
 
-Let `dp[L][R]` equal the maximum value of the difference of scores (score of current player choosing minus score of opponent) where the current player is choosing from the remaining subarray [`L`, `R`] as defined above. Each player wants to maximize this dp value when it gets to their turn. It follows that
+Let `dp[L][R]` equal the maximum value of the difference of scores (score of current player choosing minus score of opponent) where the current player is choosing from the remaining subarray [`L`, `R`] as defined above. Each player wants to maximize this dp value when it gets to their turn because this is how they can optimally increase their scores. It follows that
 
 ```cpp
 dp[L][R] = max(a[L] - dp[L+1][R], a[R] - dp[L][R-1])
