@@ -20,7 +20,7 @@ dp[L][R] = max(a[L] - dp[L+1][R], a[R] - dp[L][R-1])
 Let's try to understand what this expression really means.
 
 \
-
+\
 #### Case 1: Current Player Removes From the Beginning of the Sequence
 
 This is represented by:
@@ -28,9 +28,8 @@ This is represented by:
 a[L] - dp[L+1][R]
 ```
 If the current player removes from the beginning, the remaining sequence is the interval [`L+1`, `R`]. Note `dp[L+1][R]` is equal to the maximum difference of scores that the opponent can get working with the sequence remaining after `a[L]` is removed. Algebraically, `a[L] - dp[L+1][R]` is the maximum difference of scores for the current player if he decides to remove from the beginning. Use some algebra to convince yourself why.
-
 \
-
+\
 #### Case 2: Current Player Removes From the End of the Sequence
 
 This is represented by:
