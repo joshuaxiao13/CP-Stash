@@ -86,4 +86,4 @@ int main() {
 }
 ```
 
-This problem is also on the [CSES Problem Set](https://cses.fi/problemset/task/1097) under the Dynamic Programming section.
+**Note:** This problem is also on the [CSES Problem Set](https://cses.fi/problemset/task/1097) under the Dynamic Programming section, except you need to find the maximum score of the first player, not the difference. This can easily be done with some math at the end. If you want to see the code for that click [here](https://cses.fi/paste/321e6e5364abd1191a0da0/).
