@@ -21,8 +21,8 @@ int main() {
 			for(auto x : stones) {
 				if(R + x <= K) {
 					dp[R + x] = true;
-         		}
-     		}
+         			}
+     			}
 		}
 	}
 
