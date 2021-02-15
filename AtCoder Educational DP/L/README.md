@@ -6,7 +6,7 @@ In this problem, Taro and Jiro take turns removing elements from the beginning o
 
 Note that Jiro is trying to minimize `X - Y`, which is equivalent to maximizing `Y - X`. 
 
-Suppose Taro and Jiro have already removed some elements from the beginning and end of the sequence and they are now left with some subarray of the original sequence. Let this subarray be the elements from the original sequence in the interval [`L`, `R`]. The player whose turn it is now has two choices, which are to remove from the beginning or remove from the end of this subarray. Formally, the current player can 
+Suppose Taro and Jiro have already removed some elements from the beginning and end of the sequence and they are now left with some subarray of the original sequence. Let this subarray be the elements from the original sequence in the interval [`L`, `R`]. The player whose turn it is now has two choices, which are to remove from the beginning or remove from the end of the subarray. Formally, the current player can 
 
 1. remove `a[L]` or 
 2. remove `a[R]`
