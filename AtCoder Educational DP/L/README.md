@@ -18,7 +18,6 @@ dp[L][R] = max(a[L] - dp[L+1][R], a[R] - dp[L][R-1])
 ```
 
 Let's try to understand what this expression really means.
-
 \
 \
 #### Case 1: Current Player Removes From the Beginning of the Sequence
