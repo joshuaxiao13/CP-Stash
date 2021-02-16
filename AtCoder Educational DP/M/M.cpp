@@ -1,3 +1,5 @@
+// complexity (N K) ~ 1e7 operations worst case
+
 #include <bits/stdc++.h>
 using namespace std;
 
