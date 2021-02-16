@@ -25,7 +25,7 @@ int main() {
 	
 	for(int i = 1; i <= N; ++i) {
 		for(int R = 0; R <= K; ++R) {
-			int cnt = (dp[i-1][min(K, R+a[i-1])] - (R - 1 >= 0 ? dp[i-1][R-1] : 0)) % MOD;
+			int cnt = (dp[i-1][min(K, R + a[i-1])] - (R - 1 >= 0 ? dp[i-1][R-1] : 0)) % MOD;
 			if(cnt < 0) cnt += MOD;
 			(dp[i][R] += cnt) %= MOD;
 			if(R - 1 >= 0) (dp[i][R] += dp[i][R-1]) %= MOD;
