@@ -1,3 +1,5 @@
+// complexity O(N K^2) ~ worst case: 1e12 operations
+
 #include <bits/stdc++.h>
 using namespace std;
 
