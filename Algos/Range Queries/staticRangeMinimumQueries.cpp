@@ -23,7 +23,7 @@ int main() {
 	
 	LOG2[1] = 0;
 	
-	for(int i = 2; i <= mxN; ++i) {
+	for(int i = 2; i <= N; ++i) {
 		LOG2[i] = LOG2[i/2] + 1;
 	}
 	
