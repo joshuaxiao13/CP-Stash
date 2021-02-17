@@ -2,7 +2,7 @@
 using namespace std;
 
 const int mxN = 2e5;		// mxN = maximum number of elements in array
-const int K = 17;		// floor(log(2e5)/log(2)), in general K = floor(log(mxN)/log(2))
+const int K = 17;		// floor(log2(2e5)), in general K = floor(log2(mxN))
 
 int a[mxN];
 int st[mxN][K + 1];		// K + 1 because the highest power of 2 less than or equal to mxN is 2^K
