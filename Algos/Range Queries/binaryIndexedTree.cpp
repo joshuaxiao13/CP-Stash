@@ -3,7 +3,7 @@ using namespace std;
 
 using ll = long long;
 
-const int mxN = 2e5;				// mxN = number of elements in original array
+const int mxN = 2e5;				// mxN = maximum number of elements in array (refer to constraints of problem)
 
 int N, Q;					// Remember: Binary Indexed Trees are always 1-indexed
 ll tree[mxN + 1];				// long long to avoid integer overflow
