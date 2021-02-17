@@ -20,6 +20,8 @@ int main() {
 	
 	LOG2[1] = 0;
 	
+	// logarithimic values are floored
+	
 	for(int i = 2; i <= mxN; ++i) {
 		LOG2[i] = LOG2[i/2] + 1;
 	}
