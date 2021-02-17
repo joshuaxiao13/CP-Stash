@@ -8,7 +8,6 @@ const int mxN = 2e5;				// mxN = number of elements in original array
 int N, Q;					// Remember: Binary Indexed Trees are always 1-indexed
 ll tree[mxN + 1];				// long long to avoid integer overflow
 
-
 // returns sum of elements in the interval [1, k]
 ll sum(int k) {
 	ll ret = 0;
