@@ -8,8 +8,7 @@ const int mxN = 2e5;				// mxN = number of elements in original array
 int N, Q;					// Remember: Binary Indexed Trees are always 1-indexed
 ll tree[mxN + 1];				// long long to avoid integer overflow
 
-// returns sum of elements in the interval [1, k]
-ll sum(int k) {
+ll sum(int k) {					// returns sum of elements in the interval [1, k]
 	ll ret = 0;
 	while(k >= 1) {
 		ret += tree[k];
@@ -18,8 +17,7 @@ ll sum(int k) {
 	return ret;
 }
 
-// increases the kth element of the array by delta
-void add(int k, ll delta) {
+void add(int k, ll delta) {			// increases the kth element of the array by delta
 	while(k <= N) {
 		tree[k] += delta;
 		k += k & -k;
