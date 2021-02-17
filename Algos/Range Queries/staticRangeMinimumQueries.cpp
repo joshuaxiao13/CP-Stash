@@ -18,9 +18,10 @@ int main() {
 	
 	// Very helpful link: https://cp-algorithms.com/data_structures/sparse-table.html
 	
-	LOG2[1] = 0;
-	
 	// logarithimic values are floored
+	// log2(x) = log2(2x/2) = log2(x/2) + log2(2) = log2(x/2) + 1
+	
+	LOG2[1] = 0;
 	
 	for(int i = 2; i <= mxN; ++i) {
 		LOG2[i] = LOG2[i/2] + 1;
