@@ -5,8 +5,8 @@ const int mxN = 2e5;		// mxN = maximum number of elements in array
 const int K = 17;		// floor(log(2e5)/log(2)), in general K = floor(log(mxN)/log(2))
 
 int a[mxN];
-int st[mxN][K + 1];
-int LOG2[mxN + 1];
+int st[mxN][K + 1];		// K + 1 because the highest power of 2 less than or equal to mxN is 2^K
+int LOG2[mxN + 1];		// mxN + 1 because the largest interval size of a query will be mxN
 
 int main() {
 	
