@@ -8,6 +8,11 @@ int a[mxN];
 int st[mxN][K + 1];		// K + 1 because the highest power of 2 less than or equal to mxN is 2^K
 int LOG2[mxN + 1];		// mxN + 1 because the largest interval size of a query will be mxN
 
+int findMin(int L, int R) {
+	int j = LOG2[R - L + 1];
+	return min(st[L][j], st[R - (1<<j) + 1][j]);
+}
+
 int main() {
 	
 	cin.tie(NULL);
@@ -41,8 +46,7 @@ int main() {
 	while(Q--) {
 		int L, R;
 		cin >> L >> R, --L, --R;
-		int j = LOG2[R - L + 1];
-		cout << min(st[L][j], st[R - (1<<j) + 1][j]) << '\n';
+		cout << findMin(L, R) << '\n';
 	}
 	
 	return 0;
