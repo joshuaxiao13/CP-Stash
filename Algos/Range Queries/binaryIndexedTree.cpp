@@ -3,10 +3,10 @@ using namespace std;
 
 using ll = long long;
 
-const int mxN = 2e5;		// mxN = number of elements in original array
+const int mxN = 2e5;				// mxN = number of elements in original array
 
 int N, Q;					// Remember: Binary Indexed Trees are always 1-indexed
-ll tree[mxN + 1];			// long long to avoid integer overflow
+ll tree[mxN + 1];				// long long to avoid integer overflow
 
 ll sum(int k) {
 	ll ret = 0;
