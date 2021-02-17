@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-const int mxN = 2e5;		// mxN = maximum number of elements in array
+const int mxN = 2e5;		// mxN = maximum number of elements in array (refer to constraints of problem)
 const int K = 17;		// floor(log2(2e5)), in general K = floor(log2(mxN))
 
 int a[mxN];
