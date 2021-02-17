@@ -16,7 +16,7 @@ int main() {
 	int N, Q;
 	cin >> N >> Q;
 	
-	// https://cp-algorithms.com/data_structures/sparse-table.html
+	// Very helpful link: https://cp-algorithms.com/data_structures/sparse-table.html
 	
 	LOG2[1] = 0;
 	
