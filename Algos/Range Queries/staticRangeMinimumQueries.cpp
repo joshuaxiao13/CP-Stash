@@ -1,14 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-const int mxN = 2e5;		// mxN = maximum number of elements in array (refer to constraints of problem)
-const int K = 17;		// floor(log2(2e5)), in general K = floor(log2(mxN))
+const int mxN = 2e5;			// mxN = maximum number of elements in array (refer to constraints of problem)
+const int K = 17;			// floor(log2(2e5)), in general K = floor(log2(mxN))
 
 int a[mxN];
-int st[mxN][K + 1];		// K + 1 because the highest power of 2 less than or equal to mxN is 2^K
-int LOG2[mxN + 1];		// mxN + 1 because the largest interval size of a query will be mxN
+int st[mxN][K + 1];			// K + 1 because the highest power of 2 less than or equal to mxN is 2^K
+int LOG2[mxN + 1];			// mxN + 1 because the largest interval size of a query will be mxN
 
-int findMin(int L, int R) {
+int findMin(int L, int R) {		// find minimum element in interval [L, R]
 	int j = LOG2[R - L + 1];
 	return min(st[L][j], st[R - (1<<j) + 1][j]);
 }
