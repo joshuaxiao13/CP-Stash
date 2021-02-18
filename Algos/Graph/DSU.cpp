@@ -19,7 +19,9 @@ int find(int u) {
   	// the root, as that is the representative of the component
 }
 
-bool same(int u, int v) {return find(u) == find(v);}
+bool same(int u, int v) {
+	return find(u) == find(v);
+}
 
 void unite(int u, int v) {
 	u = find(u);
