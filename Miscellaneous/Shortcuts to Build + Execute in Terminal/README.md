@@ -26,7 +26,7 @@ co() { g++ -std=c++0x -O2 -o "${1%.*}" $1 -Wall; }
 run() { co $1 && ./${1%.*} & fg; }
 ```
 
-4. Save `.zshrc` in the same directory as your `.cpp` files.
+4. Save `.zshrc` and exit the text editor.
 
 Now you can type in `co FILENAME` or  `run FILENAME` to compile or run your program. You'll need to be familiar with [changing current working directory](https://en.wikipedia.org/wiki/Cd_(command)), `cd`. 
 
