@@ -69,8 +69,10 @@ if %errorlevel% == 0 (
 )
 echo:
 ```
-You can name your batch files anything, as long as you remember what they are.
-
 
 Now in Command Prompt, change the directory, and type in `run FILENAME`.
 If you use PowerShell, type in `./run FILENAME`.
+
+---
+You can name your batch files anything, as long as you remember what they are. For Mac, you need to name it `.zshrc`.
+For Mac and Windows, you can customize these files with different [compiler flags](https://caiorss.github.io/C-Cpp-Notes/compiler-flags-options.html). 
