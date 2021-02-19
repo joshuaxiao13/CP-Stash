@@ -28,7 +28,7 @@ run() { co $1 && ./${1%.*} & fg; }
 
 4. Save `.zshrc` in the same directory as your `.cpp` files.
 
-Now you can type in `co FILENAME` or  `run FILENAME` to compile or run your program. You'll need to be familiar with changing current working directory, `cd`. 
+Now you can type in `co FILENAME` or  `run FILENAME` to compile or run your program. You'll need to be familiar with [changing current working directory](https://en.wikipedia.org/wiki/Cd_(command)), `cd`. 
 
 Source: [USACO Guide](https://usaco.guide/general/cpp-command?lang=cpp#mac-specific)
 
