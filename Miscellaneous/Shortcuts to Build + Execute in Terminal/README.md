@@ -46,14 +46,14 @@ g++ -std=c++0x %1.cpp -Wall -O2 -o %1.exe
 
 if %errorlevel% == 0 (
     echo [2] - Running	.....	%1
-	  echo:
-   	%1.exe
+    echo:
+    %1.exe
 )
 
 echo:
 ```
 
-3. Save the file as `run.bat`. Make sure this file is in the same directory as your `.cpp` files.
+3. Save the file as `run.bat`, which is a batch file. Make sure this file is in the same directory as your `.cpp` files.
 
 If you want to make a seperate function to solely compile code, make another batch file called `co.bat` and copy and paste the following: 
 
@@ -62,9 +62,15 @@ If you want to make a seperate function to solely compile code, make another bat
 
 echo [1] - Compiling	.....	%1
 g++ -std=c++0x %1.cpp -Wall -O2 -o %1.exe
-echo [2] - Compilation Successful ..... % 1
+
+if %errorlevel% == 0 (
+    echo [2] - Compilation Successful ..... %1
+    %1.exe
+)
 echo:
 ```
+You can name your batch files anything, as long as you remember what they are.
+
 
 Now in Command Prompt, change the directory, and type in `run FILENAME`.
 If you use PowerShell, type in `./run FILENAME`.
