@@ -20,7 +20,7 @@ open ~/.zshrc
 3. In the text editor, copy and paste the following:
 
 ```
-co() { g++ -std=c++17 -O2 -o "${1%.*}" $1 -Wall; }
+co() { g++ -std=c++0x -O2 -o "${1%.*}" $1 -Wall; }
 run() { co $1 && ./${1%.*} & fg; }
 ```
 
