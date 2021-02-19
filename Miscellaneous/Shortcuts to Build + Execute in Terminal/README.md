@@ -65,7 +65,7 @@ g++ -std=c++0x %1.cpp -Wall -O2 -o %1.exe
 
 if %errorlevel% == 0 (
     echo [2] - Compilation Successful ..... %1
-    %1.exe
+    echo:
 )
 echo:
 ```
