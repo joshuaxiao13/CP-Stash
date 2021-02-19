@@ -1,4 +1,4 @@
-# Shortcuts To Build + Execute In Terminal
+# Shortcuts To Build + Execute In Terminal, Command Prompt, and Windows PowerShell
 
 The shortcuts below provide an easy way to compile, build, and execute C++ code from [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)), [Command Prompt](https://en.wikipedia.org/wiki/Cmd.exe), and [Windows PowerShell](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/powershell).
 
