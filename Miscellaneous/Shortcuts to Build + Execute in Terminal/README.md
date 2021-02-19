@@ -32,7 +32,7 @@ Now you can type in `co FILENAME` or  `run FILENAME` to compile or run your prog
 
 Source: [USACO Guide](https://usaco.guide/general/cpp-command?lang=cpp#mac-specific)
 
-## Windows Command Prompty or Windows PowerShell
+## Windows Command Prompt or Windows PowerShell
 
 1. Install `gcc` if you haven't already. [mingw-w64](http://mingw-w64.org/doku.php/download) works well.
 
