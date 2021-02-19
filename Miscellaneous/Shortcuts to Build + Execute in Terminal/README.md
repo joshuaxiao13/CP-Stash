@@ -2,6 +2,8 @@
 
 The shortcuts below provide an easy way to compile, build, and execute C++ code from [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)), [Command Prompt](https://en.wikipedia.org/wiki/Cmd.exe), and [Windows PowerShell](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/powershell).
 
+Note the compilation code `-std=c++0x` is C++11. To use C++17, replace it with `-std=c++17`.
+
 
 ## Mac Terminal
 
