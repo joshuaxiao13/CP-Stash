@@ -26,9 +26,8 @@ int main() {
 	// dp[L][R] = minimum cost to combine all elements in interval [L, R]
 	// dp[L][R] = min(dp[L][i] + dp[i+1][R] + sum(L, R)) for all L <= i < R
 	
-	for(int i = 0; i < N; ++i) {
+	for(int i = 0; i < N; ++i)
 		dp[i][i] = 0;
-	}
 	
 	for(int W = 1; W <= N; ++W) {
 		for(int L = 0; L + W - 1 < N; ++L) {
