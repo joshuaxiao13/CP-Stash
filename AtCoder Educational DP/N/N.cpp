@@ -7,7 +7,7 @@ const ll INF = 1e18;
 
 int main() {
     
-  cin.tie(NULL);
+ 	cin.tie(NULL);
 	ios_base::sync_with_stdio(false);
 	
 	int N;
