@@ -1,5 +1,3 @@
-// solution to: https://cses.fi/problemset/task/1753/
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -35,18 +33,6 @@ int main() {
 	m = t.size();
 	
 	poly_hash();
-	
-	ll hsh2 = 0;    // stores the hash value of string t
-  
-	for(int i = 0; i < m; ++i)
-		(hsh2 += (t[i] * p[m - 1 - i]) % M) %= M;
-	
-	int cnt = 0;	// cnt = # of occurences of t in s
-	
-	for(int i = 0; i + m - 1 < n; ++i)
-		cnt += (get_hash(i, i + m - 1) == hsh2);
-	
-	cout << cnt << '\n';
 	
 	return 0;
 }
