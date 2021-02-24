@@ -41,12 +41,12 @@ int main() {
 	for(int i = 0; i < m; ++i)
 		(hsh2 += (t[i] * p[m - 1 - i]) % M) %= M;
 	
-	int cnt = 0;
+	int cnt = 0;	// cnt = # of occurences of t in s
 	
 	for(int i = 0; i + m - 1 < n; ++i)
 		cnt += (get_hash(i, i + m - 1) == hsh2);
 	
-	cout << cnt << '\n';      // cnt = # of occurences of t in s
+	cout << cnt << '\n';
 	
 	return 0;
 }
