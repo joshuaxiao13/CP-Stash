@@ -14,6 +14,7 @@ int main() {
 		string s;
 		cin >> N >> s;
 		vector<int> psum(N + 1, 0);
+		
 		for(int i = 0; i < N; ++i) {
 			psum[i+1] = s[i] - '0';
 			psum[i+1] += psum[i];
