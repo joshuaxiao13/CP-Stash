@@ -36,15 +36,13 @@ int main() {
 	
 	ll hsh2 = 0;    // stores the hash value of string t
   
-	for(int i = 0; i < m; ++i) {
+	for(int i = 0; i < m; ++i)
 		(hsh2 += (t[i] * p[m - 1 - i]) % M) %= M;
-	}
 	
 	int cnt = 0;
 	
-	for(int i = 0; i + m - 1 < n; ++i) {
+	for(int i = 0; i + m - 1 < n; ++i)
 		cnt += (get_hash(i, i + m - 1) == hsh2);
-	}
 	
 	cout << cnt << '\n';      // cnt = # of occurences of t in s
 	
