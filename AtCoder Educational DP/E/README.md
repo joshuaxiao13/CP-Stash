@@ -17,8 +17,8 @@ increase the total value of our knapsack. The only thing we need to watch out fo
 
 Preset all dp values to 10<sup>18</sup>, or any number large enough. ```dp[0] = 0``` since a bag of zero weight is worth 0. Return the maximum ```v``` such that we can build a knapsack worth ```v```.
 
-If ```dp[k] = 1e5```, there is no possible way to build a knapsack with a total value of ```k``` from the given items. We'll use a 64-bit integer to avoid overflow
-(maximum sum of weights is ```1e11```).
+If ```dp[k] = 1e18```, there is no possible way to build a knapsack with a total value of ```k``` from the given items. We'll use a 64-bit integer to avoid overflow
+(maximum sum of weights is 10<sup>11</sup>).
 
 ###### Code
 ```cpp
