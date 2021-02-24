@@ -5,7 +5,7 @@ using ll = long long;
 
 const ll P = 9973, M = 1e9 + 9;       // can change these constants
 
-ll p[1000001], hsh[1000001];          // p[i] = P^i, hsh[i] = hash value of the prefix s[0...i]
+ll p[1000001], hsh[1000001];          // p[i] = P^i mod M, hsh[i] = hash value of the prefix s[0...i]
 string s, t;
 int n, m;                             //n = size of s, m = size of t
 
