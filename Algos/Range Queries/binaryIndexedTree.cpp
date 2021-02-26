@@ -23,25 +23,3 @@ void add(int k, ll delta) {			// increases the kth element of the array by delta
 		k += k & -k;
 	}
 }
-
-int main() {
-	
-	cin.tie(NULL);
-	ios_base::sync_with_stdio(false);
-
-	cin >> N >> Q;
-	
-	// process elements in array and construct the Fenwick Tree
-	
-	for(int i = 1; i <= N; ++i) {
-		int x;
-		cin >> x;
-		add(i, x);
-	}
-	
-	while(Q--) {
-		// process queries here
-	}
-	
-	return 0;
-}
