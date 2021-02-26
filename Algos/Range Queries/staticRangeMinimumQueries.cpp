@@ -43,11 +43,5 @@ int main() {
 		}
 	}
 	
-	while(Q--) {
-		int L, R;
-		cin >> L >> R, --L, --R;
-		cout << findMin(L, R) << '\n';
-	}
-	
 	return 0;
 }
