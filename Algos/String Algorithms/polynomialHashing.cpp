@@ -22,17 +22,3 @@ ll get_hash(int a, int b) {
 	if(a == 0) return hsh[b];                                     // to avoid a - 1 < 0 in the line below
 	return (hsh[b] - (hsh[a - 1] * p[b - a + 1]) % M + M) % M;    // add M because hsh[b] - (hsh[a - 1] * p[b - a + 1]) might be negative, we want hash values to be non-negative
 }
-
-int main() {
-	
-	cin.tie(NULL);
-	ios_base::sync_with_stdio(false);
-	
-	cin >> s >> t;
-	n = s.size();
-	m = t.size();
-	
-	poly_hash();
-	
-	return 0;
-}
