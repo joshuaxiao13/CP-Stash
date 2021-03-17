@@ -21,8 +21,8 @@ int solve() {
 
 int main() {
 
-	cin.tie(NULL);
-	ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    ios_base::sync_with_stdio(false);
 
     int T;
     cin >> T;
