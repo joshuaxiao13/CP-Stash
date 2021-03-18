@@ -1,4 +1,4 @@
-// Credits: KevinWan
+// Credits: KevinWan, https://codingcompetitions.withgoogle.com/kickstart/submissions/000000000019ffc8/S2V2aW5XYW4
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -48,5 +48,5 @@ int main() {
         cout << "Case #" << tc << ": " << w + 1 << " " << h + 1 << '\n';
     }
 	
-	return 0;
+    return 0;
 }
