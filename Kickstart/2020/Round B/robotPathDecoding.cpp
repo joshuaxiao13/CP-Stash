@@ -79,5 +79,5 @@ int main() {
         cout << "Case #" << tc << ": " << w + 1 << " " << h + 1 << '\n';
     }
 	
-	return 0;
+    return 0;
 }
