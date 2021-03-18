@@ -10,12 +10,12 @@ using ll = long long;
 using vi = vector<int>;
 
 const int MOD = 1e9;
-int w, h;
-
-bool isInteger(char x) {return x >= '2' && x <= '9';}
 
 stack<pair<ll,ll>> stk[1005];
 stack<int> nums;
+int w, h;
+
+bool isInteger(char x) {return x >= '2' && x <= '9';}
 
 void solve() {
 	w = h = 0;
