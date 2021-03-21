@@ -16,8 +16,8 @@ int dy[] = {1, -1, 0, 0};
 bool valid(int j, int i) {return j >= 0 && i >= 0 && j < N && i < M;}
 
 void solve() {
+	
 	cin >> N >> M;
-
 	priority_queue<tuple<ll,int,int>> pq;
 	vector<vector<ll>> g(N, vector<ll>(M));
 	
