@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
+#include <ext/pb_ds/assoc_container.hpp>
 using namespace std;
+using namespace __gnu_pbds;
  
 #define pb push_back
 #define eb emplace_back
@@ -8,6 +10,15 @@ using namespace std;
 
 using ll = long long;
 using vi = vector<int>;
+using indexed_set = tree<int,null_type,less<int>,rb_tree_tag,tree_order_statistics_node_update>;
+
+bool good(string a, string b) {
+	for(int i = 0; i < min(a.size(), b.size()); ++i) {
+		if(a[i] != b[i])
+			return false;
+	}
+	return true;
+}
 
 void solve() {
 	bool valid = true;
@@ -23,22 +34,12 @@ void solve() {
 			while(j < n && s[j] != '*') ++j;
 			string temp = string(s.begin() + i, s.begin() + j);
 			if(i == 0) {
-				for(int k = 0; k < min(left.size(), temp.size()); ++k) {
-					if(left[k] != temp[k]) {
-						valid = false;
-						break;
-					}
-				}
+				if(!good(left, temp)) valid = false;
 				if(temp.size() > left.size()) left = temp;
 			}
 			else if(j == n) {
 				reverse(temp.begin(), temp.end());
-				for(int k = 0; k < min(right.size(), temp.size()); ++k) {
-					if(right[k] != temp[k]) {
-						valid = false;
-						break;
-					}
-				}
+				if(!good(right, temp)) valid = false;
 				if(temp.size() > right.size()) right = temp;
 			}
 			else mid += temp;
