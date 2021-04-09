@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
-#include <ext/pb_ds/assoc_container.hpp>
 using namespace std;
-using namespace __gnu_pbds;
  
 #define pb push_back
 #define eb emplace_back
@@ -10,7 +8,6 @@ using namespace __gnu_pbds;
 
 using ll = long long;
 using vi = vector<int>;
-using indexed_set = tree<int,null_type,less<int>,rb_tree_tag,tree_order_statistics_node_update>;
 
 bool good(string a, string b) {
 	for(int i = 0; i < min(a.size(), b.size()); ++i) {
