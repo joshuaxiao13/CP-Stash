@@ -25,7 +25,6 @@ void solve() {
 		if(good(a, b)) continue;
 		if(a.size() == b.size()) b += "0", ++ans;
 		else {
-
 			bool same = true;
 			for(int j = 0; j < b.size(); ++j) {
 				if(a[j] != b[j]) {
