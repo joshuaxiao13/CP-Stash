@@ -52,7 +52,6 @@ void solve() {
 	}
 
 	cout << ans;
-
 }
 
 int main() {
